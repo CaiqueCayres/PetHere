@@ -12,7 +12,7 @@ O Projeto consiste em uma aplicação mobile (atualmente apenas para *iOS*) capa
 # Repositório (A3)
 O Projeto conta com uma branch principal **develop** da qual são criadas novas branchs de feat/* onde serão desenvolvidas as *issues* abertas para desenvolvimento.
 
-![image](./Files/GitFlow/Branchs.png)
+![image](./images//Branchs.png)
 
 * O Historico das Issues pode ser consultado [aqui](https://gitlab.com/pethere1/pethere-ios/-/issues)
 
@@ -32,7 +32,7 @@ Ao ler uma tag NFC que contenha o id de um pet é criado um registro que contem 
 O leitor pode ver as informações de contato do dono que registrou o pet lido.  
 O dono de um Pet pode ver o histórico de registro do seu pet e as informações de contato de quem fez a leitura.  
 
-![image](./Files/DesignPattern/C4.png) 
+![image](./images/C4.png) 
 
 ## **Arquitetura de código**
 O Projeto foi desenvolvido usando o Design Pattern **MVVM-C**  
@@ -83,7 +83,7 @@ Os **Models** são os objetos que carregam as informações obtidas atraves do i
 ## Visão geral
 Eis o diagrama geral com a arquitetura utilizada na aplicação e seus respectivos módulos:  
 
-![image](./Files/DesignPattern/MVVMC426.png)
+![image](./images/MVVMC426.png)
 
 # Testes (A6)
 
@@ -97,7 +97,7 @@ Foram aplicados testes nas camadas de:
   * [SignInViewModel](https://gitlab.com/pethere1/pethere-ios/-/blob/develop/PetHereTests/Source/Modules/Main/SignIn/SignInViewModelSpec.swift)
   * [UserProfileViewModel](https://gitlab.com/pethere1/pethere-ios/-/blob/develop/PetHereTests/Source/Modules/Home/UserProfile/UserProfileViewModelSpec.swift)
 
-![image](./Files/Tests/TestScheme.png)
+![image](./images/TestScheme.png)
 
 
 # Automação (A7)
@@ -170,5 +170,4 @@ Ler tag NFC atrelada ao animal e ter as informações de contato do dono.
   </video>
 </figure>
 
-* Caso tenha problemas em visualizar os vídeos [Clique Aqui](https://gitlab.com/pethere1/pethere-ios/-/tree/develop/Files/Videos)
 
